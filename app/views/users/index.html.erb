@@ -1,0 +1,8 @@
+<h1>Create a form</h1>
+
+
+<h3> There are <%= pluralize(User.count, 'user') %> </h3>
+
+<p>
+  <%= link_to 'New', new_user_path %>
+</p>
